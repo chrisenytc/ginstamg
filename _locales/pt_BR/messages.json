@@ -1,0 +1,17 @@
+{
+    "app_title": {
+        "message": "Ginstamg"
+    },
+    "options_title": {
+        "message": "Ginstamg | Opções"
+    },
+    "app_description": {
+        "message": "Baixe fotos do instagram pelo Google Chrome"
+    },
+    "about": {
+        "message": "Uma extensão para pegar links de fotos do instagram com facilidade"
+    },
+    "installed": {
+        "message": "Ginstamg instalado com sucesso :)"
+    }
+}

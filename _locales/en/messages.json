@@ -1,0 +1,17 @@
+{
+    "app_title": {
+        "message": "Ginstamg"
+    },
+    "options_title": {
+        "message": "Ginstamg | Options"
+    },
+    "app_description": {
+        "message": "A chrome extension to get the link of photos from instagram"
+    },
+    "about": {
+        "message": "Get the link of photos from instagram"
+    },
+    "installed": {
+        "message": "Ginstamg installed successfully :)"
+    }
+}
