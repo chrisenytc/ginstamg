@@ -22,7 +22,7 @@
         "persistent": false
     },
     "content_scripts": [{
-        "matches": ["https://instagram.com/p/*"],
+        "matches": ["https://www.instagram.com/p/*"],
         "js": ["src/bg/helpers.js", "src/bg/content.js"]
     }],
     "options_page": "options/index.html",
