@@ -7,11 +7,10 @@
 
 'use strict';
 
-function getContentByMetaTagName(c) {
-    for (var b = document.getElementsByTagName("meta"), a = 0; a < b.length; a++) {
-        if (c == b[a].name || c == b[a].getAttribute("property")) {
-            return b[a].content;
-        }
-    }
-    return false;
+function getContentByMetaTagName(c, callback) {
+	for (var b = document.getElementsByTagName("meta"), a = 0; a < b.length; a++) {
+		if (c == b[a].getAttribute("property")) {
+			return callback(b[a].getAttribute("content"));
+		}
+	}
 }

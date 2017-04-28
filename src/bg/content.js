@@ -6,8 +6,9 @@
  */
 
 chrome.runtime.onMessage.addListener(function(message, sender, callback) {
-    if (message === 'getSource') {
-        //Send photo link
-        callback(getContentByMetaTagName('og:image'));
-    }
+	if (message === 'getInstagramSource') {
+		//Send photo link
+		getContentByMetaTagName('og:image', callback)
+		return true
+	}
 });
